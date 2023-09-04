@@ -38,13 +38,13 @@ const HamburgerMenu: React.FC = () => {
                 <a href="/home" className="block py-2 pl-3 pr-4 text-white hover:text-black bg-red-700 rounded md:bg-transparent md:text-white md:p-0 md:dark:text-white dark:bg-red-600 md:dark:bg-transparent" aria-current="page">Home</a>
                 </li>
                 <li>
-                <a href="#" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-400 md:hover:bg-gray-400 md:border-0 md:hover:text-black md:p-0 dark:text-black md:dark:hover:text-black dark:hover:bg-gray-400 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+                <a href="/about" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-400 md:hover:bg-gray-400 md:border-0 md:hover:text-black md:p-0 dark:text-black md:dark:hover:text-black dark:hover:bg-gray-400 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
                 </li>
                 <li>
                 <a href="/Shop" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-400 md:hover:bg-gray-400 md:border-0 md:hover:text-black md:p-0 dark:text-black md:dark:hover:text-black dark:hover:bg-gray-400 dark:hover:text-white md:dark:hover:bg-transparent">Products</a>
                 </li>
                 <li>
-                <a href="#" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-400 md:hover:bg-gray-400 md:border-0 md:hover:hover:text-black md:p-0 dark:text-black md:dark:hover:text-black dark:hover:bg-gray-400 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+                <a href="/contact" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-400 md:hover:bg-gray-400 md:border-0 md:hover:hover:text-black md:p-0 dark:text-black md:dark:hover:text-black dark:hover:bg-gray-400 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
                 </li>
                 </ul>
             </div>
