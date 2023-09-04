@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import Seo from '../components/Seo'
 import Gallery from '../components/Gallery'
@@ -8,15 +7,15 @@ import Nav2 from '../components/Nav2'
 import NineOne from '../components/NineOne'
 import NineTwo from '../components/NineTwo'
 
-
 const about = () => {
   return (
-    <div className='bg-black'>
+    <div>
       <Seo title={"U'NiQ Spirits"} 
       description={"About Us."} 
       image={"UNIQ.jpg"} 
       url={"drinkuniq.com"}  />
       <Nav2/>
+     
       <AHero/>
       <NineOne/>
       <Gallery/>
@@ -28,3 +27,4 @@ const about = () => {
 }
 
 export default about
+
