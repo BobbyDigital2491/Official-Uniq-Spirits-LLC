@@ -14,7 +14,7 @@ const Reviews = () => {
         <div className="flex items-center gap-4">
           <img
             alt="Man"
-            src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+            src="Jasmine.jpeg"
             className="h-16 w-16 rounded-full object-cover"
           />
 
@@ -85,7 +85,7 @@ const Reviews = () => {
         <div className="flex items-center gap-4">
           <img
             alt="Man"
-            src="https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcRCFv1qQeUn_W7WKXdpJyTXEHYPWy5zpggI2Gs5952FsrkuPLJZwKwZDA0n5t8J20pIT4JSRom0bBl2TYc"
+            src="2nd.jpg"
             className="h-16 w-16 rounded-full object-cover"
           />
 
@@ -156,7 +156,7 @@ const Reviews = () => {
         <div className="flex items-center gap-4">
           <img
             alt="Man"
-            src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+            src="Trell.jpeg"
             className="h-16 w-16 rounded-full object-cover"
           />
 
