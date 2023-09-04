@@ -32,7 +32,7 @@ const Collections = () => {
               Black Owned
             </a>
           </h3>
-          <p className="text-base font-semibold text-gray-900">Created and Brewed by a purely balck owned company</p>
+          <p className="text-base font-semibold text-gray-900">Created and Brewed by a purely black owned company</p>
         </div>
         <div className="group relative">
           <div className="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
