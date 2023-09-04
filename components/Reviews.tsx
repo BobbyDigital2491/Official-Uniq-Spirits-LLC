@@ -156,7 +156,7 @@ const Reviews = () => {
         <div className="flex items-center gap-4">
           <img
             alt="Man"
-            src="Trell.jpeg"
+            src="Trell.jpg"
             className="h-16 w-16 rounded-full object-cover"
           />
 
