@@ -101,7 +101,7 @@ const Red = () => {
         
         
         <div className="flex flex-wrap -mx-2 mb-12">
-          <div className="w-full md:w-2/3 px-2 mb-2 md:mb-0"><a className="block py-4 px-2 leading-8 font-heading font-medium tracking-tighter text-xl text-white text-center bg-red-500 focus:ring-2 focus:ring-gray-500 focus:ring-opacity-50 hover:bg-red-600 rounded-xl" href="https://square.link/u/gja2sIJC">Buy Now</a></div>
+          <div className="w-full md:w-2/3 px-2 mb-2 md:mb-0"><a className="block py-4 px-2 leading-8 font-heading font-medium tracking-tighter text-xl text-white text-center bg-red-500 focus:ring-2 focus:ring-gray-500 focus:ring-opacity-50 hover:bg-red-600 rounded-xl" href="/SweetRed">Buy Now</a></div>
           <div className="w-full md:w-1/3 px-2">
           </div>
         </div>
