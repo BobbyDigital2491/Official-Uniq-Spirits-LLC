@@ -72,12 +72,12 @@ const Reviews = () => {
               </svg>
             </div>
 
-            <p className="mt-1 text-lg font-medium text-gray-700">Dante Stone</p>
+            <p className="mt-1 text-lg font-medium text-gray-700">Jasmine Wilson</p>
           </div>
         </div>
 
         <p className="line-clamp-2 sm:line-clamp-none mt-4 text-gray-500">
-          IDK man something about this wine makes me wanna just slap the shit out of somebody. Its that good!
+        &quot;The Sweet Red from this wine company is a burst of flavors that dance on the palate. Its rich sweetness is perfectly balanced, making it a versatile companion for both casual gatherings and special occasions. The velvety texture and lingering notes of ripe berries create a truly memorable experience.&quot;
         </p>
       </blockquote>
 
@@ -148,7 +148,7 @@ const Reviews = () => {
         </div>
 
         <p className="line-clamp-2 sm:line-clamp-none mt-4 text-gray-500">
-          Word to my mother this shit bussin bussin. On crip.
+        &quot;Exquisite in every sip! The Sauvignon Blanc offered by this wine company is a true embodiment of freshness. Its crisp citrus notes and vibrant aromas transport me to a sunny vineyard with each pour. This wine&apos;s zesty character makes it an ideal choice for pairing with seafood or enjoying on a warm summer day.&quot;
         </p>
       </blockquote>
 
@@ -214,13 +214,12 @@ const Reviews = () => {
               </svg>
             </div>
 
-            <p className="mt-1 text-lg font-medium text-gray-700">Caleb Gustufson</p>
+            <p className="mt-1 text-lg font-medium text-gray-700">Trell Williams</p>
           </div>
         </div>
 
         <p className="line-clamp-2 sm:line-clamp-none mt-4 text-gray-500">
-          Just before my wife yells at me for absolutely nothing, I have a few glasses of Uniq. Suddenly its not so bad.....
-          My wife is still a bitch but hey at least this wine makes me feel good.
+        &quot;I have had the pleasure of experiencing both the &apos;Sweet Red&apos; and &apos;Sauvignon Blanc&apos; from this wine company, and I&apos;m thoroughly impressed. The commitment to quality and distinct flavors is evident in every bottle. The &apos;Sweet Red&apos; offers a harmonious blend of sweetness and depth, while the &apos;Sauvignon Blanc&apos; is a refreshing journey of bright flavors. A remarkable collection that caters to diverse preferences.&quot;
         </p>
       </blockquote>
     </div>
