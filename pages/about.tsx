@@ -1,13 +1,13 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
-import Nav from '../components/Nav'
 import Seo from '../components/Seo'
-import About from '../components/About'
-import NineOne from '../components/NineOne'
-import NineTwo from '../components/NineTwo'
 import Gallery from '../components/Gallery'
 import Footer from '../components/Footer'
 import AHero from '../components/AHero'
+import Nav2 from '../components/Nav2'
+import NineOne from '../components/NineOne'
+import NineTwo from '../components/NineTwo'
+
 
 const about = () => {
   return (
