@@ -4,56 +4,63 @@ import React from 'react'
 const Contact = () => {
   return (
     <div>
-        <section className="relative pt-24 pb-36 bg-black overflow-hidden">
-  <div className="relative z-10 container px-4 mx-auto  ">
-    <h2 className="mb-5 text-6xl md:text-8xl xl:text-10xl text-center text-yellow-400 font-bold font-heading tracking-px-n leading-none ">Get connected</h2>
-    <p className="mb-20 text-lg text-white  text-center font-medium leading-normal md:max-w-lg mx-auto">Check us out on social media & get in contact with us.</p>
-    <div className="flex flex-wrap -m-3 ">
-      <div className="w-full md:w-1/3 p-3  ">
-        <div className="p-11 h-full text-center bg-white border-4 border-yellow-400 rounded-xl shadow-11xl">
-          <div className="mb-6 relative mx-auto w-16 h-16 bg-white border border-yellow-400 rounded-full">
-            <div className="absolute left-1/2 top-1/2 transform -translate-y-1/2 -translate-x-1/2 ">
-              <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M4 11.1666L14.5208 18.1805C15.4165 18.7776 16.5835 18.7776 17.4792 18.1805L28 11.1666M6.66667 25.8333H25.3333C26.8061 25.8333 28 24.6394 28 23.1666V9.83329C28 8.36053 26.8061 7.16663 25.3333 7.16663H6.66667C5.19391 7.16663 4 8.36053 4 9.83329V23.1666C4 24.6394 5.19391 25.8333 6.66667 25.8333Z" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
-              </svg>
-            </div>
-          </div>
-          <h3 className="mb-3 text-xl font-bold font-heading leading-snug">Send Email</h3>
-          <p className="font-medium leading-relaxed">info@CH91.com</p>
-          <p className="font-medium leading-relaxed">support@CH91.com</p>
+        <section className="bg-gray-600 dark:bg-black">
+    <div className="container px-6 py-12 mx-auto">
+        <div>
+            <p className="font-medium text-red-600 dark:text-red-600">Contact us</p>
+
+            <h1 className="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white">Get in touch</h1>
+
+            <p className="mt-3 text-yellow-500 dark:text-yellow-500">Our friendly team would love to hear from you.</p>
         </div>
-      </div>
-      <div className="w-full md:w-1/3 p-3 ">
-        <div className="p-11 h-full text-center bg-white border-4 border-yellow-400 rounded-xl shadow-11xl">
-          <div className="mb-6 relative mx-auto w-16 h-16 bg-white border border-yellow-400 rounded-full">
-            <div className="absolute left-1/2 top-1/2 transform -translate-y-1/2 -translate-x-1/2">
-              <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M4 7.16667C4 5.69391 5.19391 4.5 6.66667 4.5H11.039C11.6129 4.5 12.1224 4.86724 12.3039 5.4117L14.301 11.4029C14.5108 12.0324 14.2258 12.7204 13.6324 13.0172L10.6227 14.522C12.0923 17.7816 14.7184 20.4077 17.978 21.8773L19.4828 18.8676C19.7796 18.2742 20.4676 17.9892 21.0971 18.199L27.0883 20.1961C27.6328 20.3776 28 20.8871 28 21.461V25.8333C28 27.3061 26.8061 28.5 25.3333 28.5H24C12.9543 28.5 4 19.5457 4 8.5V7.16667Z" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
-              </svg>
+
+        <div className="grid grid-cols-1 gap-12 mt-10 lg:grid-cols-3">
+            <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-1">
+                <div>
+                    <span className="inline-block p-3 text-red-600 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                        </svg>
+                    </span>
+
+                    <h2 className="mt-4 text-base font-medium text-gray-800 dark:text-white">Email</h2>
+                    <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">Our friendly team is here to help.</p>
+                    <p className="mt-2 text-sm text-red-600 dark:text-red-600">uniqspiritsllc@gmail.com</p>
+                </div>
+
+                <div>
+                    <span className="inline-block p-3 text-red-600 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                        </svg>
+                    </span>
+                    
+                    <h2 className="mt-4 text-base font-medium text-gray-800 dark:text-white">Office</h2>
+                    <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">Come say hello at our office HQ.</p>
+                    <p className="mt-2 text-sm text-red-600 dark:text-red-600">100 Smith Street Collingwood VIC 3066 AU</p>
+                </div>
+
+                <div>
+                    <span className="inline-block p-3 text-red-600 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                        </svg>
+                    </span>
+                    
+                    <h2 className="mt-4 text-base font-medium text-gray-800 dark:text-white">Phone</h2>
+                    <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">Mon-Fri from 8am to 5pm.</p>
+                    <p className="mt-2 text-sm text-red-600 dark:text-red-600">+1 (864) 887-9453</p>
+                </div>
             </div>
-          </div>
-          <h3 className="mb-3 text-xl font-bold font-heading leading-snug">Call Us</h3>
-          <p className="font-medium leading-relaxed">+1 8408 412 569</p>
-          <p className="font-medium leading-relaxed">+1 8408 412 569</p>
-        </div>
-      </div>
-      <div className="w-full md:w-1/3 p-3">
-        <div className="p-11 h-full text-center bg-white border-4 border-yellow-400 rounded-xl shadow-11xl">
-          <div className="mb-6 relative mx-auto w-16 h-16 bg-white border border-yellow-400 rounded-full">
-            <div className="absolute left-1/2 top-1/2 transform -translate-y-1/2 -translate-x-1/2">
-              <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M23.5431 22.7091C22.1797 24.0725 19.192 27.0602 17.4133 28.8389C16.6323 29.62 15.3693 29.6203 14.5883 28.8392C12.8393 27.0903 9.91373 24.1647 8.45818 22.7091C4.29259 18.5435 4.29259 11.7898 8.45818 7.62419C12.6238 3.4586 19.3775 3.4586 23.5431 7.62419C27.7087 11.7898 27.7087 18.5435 23.5431 22.7091Z" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
-                <path d="M20.0007 15.1667C20.0007 17.3758 18.2098 19.1667 16.0007 19.1667C13.7915 19.1667 12.0007 17.3758 12.0007 15.1667C12.0007 12.9575 13.7915 11.1667 16.0007 11.1667C18.2098 11.1667 20.0007 12.9575 20.0007 15.1667Z" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
-              </svg>
+
+            <div className="overflow-hidden rounded-lg lg:col-span-2 h-96 lg:h-auto">
+                <iframe width="100%" height="100%" frameBorder="0" title="map"  scrolling="no" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.722040919895!2d-81.02157192424626!3d34.91342437284479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885689e9019c3a73%3A0x308727ff65ed747c!2sViccci%20Protocol!5e0!3m2!1sen!2sus!4v1692794720609!5m2!1sen!2sus"></iframe>
             </div>
-          </div>
-          <h3 className="mb-3 text-xl font-bold font-heading leading-snug">Address</h3>
-          <p className="font-medium max-w-xs mx-auto leading-relaxed">380 St Kilda Road, Melbourne VIC 3004, Australia</p>
         </div>
-      </div>
     </div>
-  </div>
 </section>
+<hr/>
     </div>
   )
 }
