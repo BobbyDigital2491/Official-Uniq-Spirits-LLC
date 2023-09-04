@@ -149,7 +149,7 @@ const Footer = () => {
           >
             
 
-            <a className="text-white transition hover:text-yellow-400" href="/">
+            <a className="text-white transition hover:text-yellow-400" href="/contact">
               Contact Us
             </a>
 
