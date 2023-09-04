@@ -1,17 +1,17 @@
 import React from 'react'
-import Nav from '../components/Nav'
 import Seo from '../components/Seo'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
+import Nav2 from '../components/Nav2'
 
 const contact = () => {
   return (
     <div className='bg-black'>
-        <Seo title={"Channel 91"} 
-      description={"Welcome to Channel 91, a variety channel where you can find whatever content your'e looking for. From documentaries to podcasts, comedy skits to real news. Channel 91 is the home of content."} 
+        <Seo title={"U'NiQ Spirits"} 
+      description={"Welcome to U'NiQ Spirits."} 
       image={"public/monkey.png"} 
       url={"CH91.com"}  />
-      <Nav/>
+      <Nav2/>
       <Contact/>
       <Footer/>
     </div>
@@ -19,3 +19,4 @@ const contact = () => {
 }
 
 export default contact
+
