@@ -143,7 +143,7 @@ const Reviews = () => {
               </svg>
             </div>
 
-            <p className="mt-1 text-lg font-medium text-gray-700">The Big Wooskie</p>
+            <p className="mt-1 text-lg font-medium text-gray-700">L Davis</p>
           </div>
         </div>
 
