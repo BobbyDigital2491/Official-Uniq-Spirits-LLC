@@ -23,7 +23,7 @@ const Contact = () => {
                         </svg>
                     </span>
 
-                    <h2 className="mt-4 text-base font-medium text-gray-800 dark:text-white">Email</h2>
+                    <h2 className="mt-4 text-base font-medium text-white dark:text-white">Email</h2>
                     <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">Our friendly team is here to help.</p>
                     <p className="mt-2 text-sm text-red-600 dark:text-red-600">uniqspiritsllc@gmail.com</p>
                 </div>
@@ -36,7 +36,7 @@ const Contact = () => {
                         </svg>
                     </span>
                     
-                    <h2 className="mt-4 text-base font-medium text-gray-800 dark:text-white">Office</h2>
+                    <h2 className="mt-4 text-base font-medium text-white dark:text-white">Office</h2>
                     <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">Come say hello at our office HQ.</p>
                     <p className="mt-2 text-sm text-red-600 dark:text-red-600">10 Liberty Ln greenville sc 29607</p>
                 </div>
@@ -48,7 +48,7 @@ const Contact = () => {
                         </svg>
                     </span>
                     
-                    <h2 className="mt-4 text-base font-medium text-gray-800 dark:text-white">Phone</h2>
+                    <h2 className="mt-4 text-base font-medium text-white dark:text-white">Phone</h2>
                     <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">Mon-Fri from 8am to 5pm.</p>
                     <p className="mt-2 text-sm text-red-600 dark:text-red-600">+1 (929) 503-7656</p>
                 </div>
