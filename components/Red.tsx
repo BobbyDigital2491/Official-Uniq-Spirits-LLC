@@ -54,7 +54,7 @@ const Red = () => {
           </div>
           <div className="w-full sm:w-9/12 px-4">
             <img className="mb-5" src="Black.jpg" alt=""/>
-            <p className="text-sm text-gray-300">Roll over image to zoom in</p>
+           
           </div>
         </div>
       </div>
