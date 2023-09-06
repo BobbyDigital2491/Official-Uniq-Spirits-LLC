@@ -38,7 +38,7 @@ const Contact = () => {
                     
                     <h2 className="mt-4 text-base font-medium text-gray-800 dark:text-white">Office</h2>
                     <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">Come say hello at our office HQ.</p>
-                    <p className="mt-2 text-sm text-red-600 dark:text-red-600">100 Smith Street Collingwood VIC 3066 AU</p>
+                    <p className="mt-2 text-sm text-red-600 dark:text-red-600">10 Liberty Ln greenville sc 29607</p>
                 </div>
 
                 <div>
@@ -55,7 +55,7 @@ const Contact = () => {
             </div>
 
             <div className="overflow-hidden rounded-lg lg:col-span-2 h-96 lg:h-auto">
-                <iframe width="100%" height="100%" frameBorder="0" title="map"  scrolling="no" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.722040919895!2d-81.02157192424626!3d34.91342437284479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885689e9019c3a73%3A0x308727ff65ed747c!2sViccci%20Protocol!5e0!3m2!1sen!2sus!4v1692794720609!5m2!1sen!2sus"></iframe>
+                <iframe width="100%" height="100%" frameBorder="0" title="map"  scrolling="no" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3274.5090563595627!2d-82.36785102424926!3d34.84343427286939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88582e4acb754c53%3A0xe2c24c356fa5686f!2s10%20Liberty%20Ln%2C%20Greenville%2C%20SC%2029607!5e0!3m2!1sen!2sus!4v1694029238586!5m2!1sen!2sus"></iframe>
             </div>
         </div>
     </div>
