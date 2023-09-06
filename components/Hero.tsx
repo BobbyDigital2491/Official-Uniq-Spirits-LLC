@@ -80,14 +80,34 @@ const Hero = () => {
       <div className="relative max-w-5xl px-6 mx-auto mt-12 -mb-8 group sm:px-8 lg:px-12 sm:-mb-24 lg:-mb-36 xl:-mb-40">
           <div className="overflow-hidden rounded-md aspect-w-4 aspect-h-3 lg:aspect-w-16 lg:aspect-h-9">
               
-<video src="https://bafybeighfpc2rgmah22mq5imhnt6fw573fkuyjoc5aryfap6tzwc6ws3jq.ipfs.dweb.link/UNIQAD.mp4" className="w-full" 
- controls
- autoPlay
-        loop
-        muted>
-   
+<video
+  src="https://bafybeighfpc2rgmah22mq5imhnt6fw573fkuyjoc5aryfap6tzwc6ws3jq.ipfs.dweb.link/UNIQAD.mp4"
+  className="w-full"
+  controls
+  autoPlay
+  loop
+  muted
+  playsInline // Add playsInline for mobile
+  id="myVideo"
+>
   Your browser does not support the video tag.
 </video>
+
+<script>
+  // Add JavaScript to trigger video play on user interaction
+  const video = document.getElementById('myVideo');
+
+  if (video) {
+    video.addEventListener('click', function () {
+      if (video.paused) {
+        video.play();
+      } else {
+        video.pause();
+      }
+    });
+  }
+</script>
+
 
           </div>
           <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
