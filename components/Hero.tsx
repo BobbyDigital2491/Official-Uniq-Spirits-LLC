@@ -88,26 +88,10 @@ const Hero = () => {
   loop
   muted
   playsInline // Add playsInline for mobile
-  id="myVideo"
+  autoplay:mobile // This class will conditionally apply autoplay on mobile
 >
   Your browser does not support the video tag.
 </video>
-
-<script>
-  // Add JavaScript to trigger video play on user interaction
-  const video = document.getElementById('myVideo');
-
-  if (video) {
-    video.addEventListener('click', function () {
-      if (video.paused) {
-        video.play();
-      } else {
-        video.pause();
-      }
-    });
-  }
-</script>
-
 
           </div>
           <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
