@@ -133,9 +133,9 @@ const Footer = () => {
             className="mt-6 flex flex-col space-y-1"
           >
            
-            <h1 className="text-white transition hover:text-yellow-400" >
-              Coming soon
-            </h1>
+            <a className="text-white transition hover:text-yellow-400" href="/about">
+              About Us
+            </a>
            
           </nav>
         </div>
