@@ -88,10 +88,11 @@ const Hero = () => {
   loop
   muted
   playsInline // Add playsInline for mobile
-  autoplay:mobile // This class will conditionally apply autoplay on mobile
+  lg:autoplay // Autoplay on screens larger than "lg" (you can adjust the breakpoint)
 >
   Your browser does not support the video tag.
 </video>
+
 
           </div>
           <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
