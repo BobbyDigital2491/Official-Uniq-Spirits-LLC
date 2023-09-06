@@ -4,7 +4,7 @@ import React from 'react'
 const Contact = () => {
   return (
     <div>
-        <section className="bg-gray-600 dark:bg-black">
+        <section className="bg-black dark:bg-black">
     <div className="container px-6 py-12 mx-auto">
         <div>
             <p className="font-medium text-red-600 dark:text-red-600">Contact us</p>
