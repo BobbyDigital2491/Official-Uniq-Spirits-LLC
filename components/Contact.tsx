@@ -17,7 +17,7 @@ const Contact = () => {
         <div className="grid grid-cols-1 gap-12 mt-10 lg:grid-cols-3">
             <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-1">
                 <div>
-                    <span className="inline-block p-3 text-red-600 rounded-full bg-gray-800 dark:bg-gray-800">
+                    <span className="inline-block p-3 text-red-600 rounded-full bg-blue-100/80 dark:bg-gray-800">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
                         </svg>
