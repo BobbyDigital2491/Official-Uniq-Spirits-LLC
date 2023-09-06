@@ -88,7 +88,7 @@ const Hero = () => {
   loop
   muted
   playsInline // Add playsInline for mobile
-  lg:autoplay // Autoplay on screens larger than "lg" (you can adjust the breakpoint)
+   // Autoplay on screens larger than "lg" (you can adjust the breakpoint)
 >
   Your browser does not support the video tag.
 </video>
